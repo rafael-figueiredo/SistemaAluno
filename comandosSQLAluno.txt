@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS sisaluno;
+
+CREATE DATABASE IF NOT EXISTS sisaluno;
+
+DROP TABLE IF EXISTS sisaluno.tbAluno;
+CREATE TABLE IF NOT EXISTS sisaluno.tbAluno(
+	caAluno		INT 		NOT NULL,
+	nomeAluno	VARCHAR(100)	NOT NULL,
+	emailAluno	VARCHAR(100)	NOT NULL,
+	dtaNasc		DATE		NOT NULL,
+	endAluno	VARCHAR(100)	NOT NULL,
+	idadeAluno	int		NOT NULL
+);
